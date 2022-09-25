@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp2;
+using System;
 
 namespace Przetwarzanie_numeru_pesel
 {
@@ -15,6 +16,9 @@ namespace Przetwarzanie_numeru_pesel
 
                 Console.WriteLine("Plec wlasciciela numeru:" + p.Plec);
                 Console.WriteLine("Plec wlasciciela numeru:" + p.PlecOpisowa);
+                Console.WriteLine("dzien:" + p.dzien);
+                Console.WriteLine("miesiac:" + p.miesac);
+                Console.WriteLine("rok:" + p.Rok);
             }
             catch (Exception ex)
             {
