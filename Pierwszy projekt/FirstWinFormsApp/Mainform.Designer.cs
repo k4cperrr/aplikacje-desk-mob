@@ -29,26 +29,26 @@ namespace FirstWinFormsApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonfirst = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonfirst
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(362, 210);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(195, 103);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "przycisk";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonfirst.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.buttonfirst.Location = new System.Drawing.Point(362, 210);
+            this.buttonfirst.Name = "buttonfirst";
+            this.buttonfirst.Size = new System.Drawing.Size(195, 103);
+            this.buttonfirst.TabIndex = 0;
+            this.buttonfirst.Text = "przycisk";
+            this.buttonfirst.UseVisualStyleBackColor = true;
+            this.buttonfirst.Click += new System.EventHandler(this.buttonfirst_Click);
             // 
             // Mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(943, 538);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonfirst);
             this.Name = "Mainform";
             this.Text = "Pierwszy program okienkowy";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -58,7 +58,7 @@ namespace FirstWinFormsApp
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonfirst;
     }
 }
 

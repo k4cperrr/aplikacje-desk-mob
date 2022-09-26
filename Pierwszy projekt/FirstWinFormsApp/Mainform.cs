@@ -22,9 +22,9 @@ namespace FirstWinFormsApp
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonfirst_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Witaj w pierwszym programie forms");
         }
     }
 }
