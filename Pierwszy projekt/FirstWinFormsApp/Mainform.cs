@@ -17,14 +17,32 @@ namespace FirstWinFormsApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void buttonfirst_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Witaj w pierwszym programie forms");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonHelloName_Click(object sender, EventArgs e)
+        {
+            string message = "witaj "+ textBoxName.Text + "w tym programie";
+            MessageBox.Show(message);
         }
     }
 }
